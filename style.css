@@ -1,0 +1,51 @@
+*{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0;
+    color: lavender;
+}
+
+html{
+    background: rgb(94, 94, 94);
+    
+}
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+header p{
+    color: violet;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 25%;
+    align-items: center;
+    width: 25%;
+    position: relative;
+    border: indigo;
+    background-color: violet;
+    border-radius: 5px;
+    border: 10px;
+    border-color: teal;
+    margin: 5px;
+
+    
+}
+
+footer{
+    text-align: center;
+}
